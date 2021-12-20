@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header .top-header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+header .top-header img {
+    width: 80px;
+    margin-right: 20px;
+}
+
+header .bottom-header{
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+header .bottom-header ul {
+    display: flex;
+    list-style: none;
+}
+
+header .bottom-header ul li {
+    margin-right: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+header .bottom-header ul li:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 50px auto;
+}
+
+.faq {
+    padding: 20px 0;
+}
+
+.faq p {
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    background: lightgrey;
+}
